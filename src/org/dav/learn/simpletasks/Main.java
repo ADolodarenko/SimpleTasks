@@ -1,16 +1,26 @@
 package org.dav.learn.simpletasks;
 
-import java.io.InputStreamReader;
-import java.io.Reader;
-
 public class Main
 {
     public static void main(String[] args)
     {
-        Reader reader = new InputStreamReader(System.in);
+        LetterQuiz quiz = new LetterQuiz();
+        quiz.start();
+        
+        
+        /*double[] arr = {10.0, 12.0, 476.123};
+        
+        Util.addTenPercent(arr, 2);
+    
+        System.out.println(Arrays.toString(arr));
+    
+        System.out.println(Util.footsTolightning(7.2));*/
+        
+        
+        /*Reader reader = new InputStreamReader(System.in);
 
         SymbolReader symbolReader = new SymbolReader(reader);
         symbolReader.read();
-        System.out.println("Space quantity: " + symbolReader.getSpaceQuantity());
+        System.out.println("Space quantity: " + symbolReader.getSpaceQuantity());*/
     }
 }
